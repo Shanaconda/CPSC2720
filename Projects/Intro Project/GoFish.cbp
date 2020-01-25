@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GoFish" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GoFish" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GoFish" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Card.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/PlayerAi.h" />
+		<Unit filename="include/SetOfCards.h" />
+		<Unit filename="src/Card.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/PlayerAi.cpp" />
+		<Unit filename="src/SetOfCards.cpp" />
+		<Unit filename="src/game/main.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="test/TestGoFish.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="test/main.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

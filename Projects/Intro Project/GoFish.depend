@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1579983490 source:/home/abes2720/Projects/Europa/GoFish/src/Card.cpp
+	"Card.h"
+
+1579987685 /home/abes2720/Projects/Europa/GoFish/include/Card.h
+	<string>
+	<iostream>
+
+1579903034 source:/home/abes2720/Projects/Europa/GoFish/test/main.cpp
+	"gtest/gtest.h"
+
+1579902967 /home/abes2720/Projects/Europa/GoFish/test/TestGoFish.cpp
+	"gtest/gtest.h"
+	"Card.h"
+
+1579992344 source:/home/abes2720/Projects/Europa/GoFish/test/TestGoFish.cpp
+	"gtest/gtest.h"
+	"Card.h"
+	"SetOfCards.h"
+	"Player.h"
+	"PlayerAi.h"
+
+1579980487 source:/home/abes2720/Projects/Europa/GoFish/src/SetOfCards.cpp
+	"SetOfCards.h"
+	"Card.h"
+	<algorithm>
+	<string>
+
+1579979507 /home/abes2720/Projects/Europa/GoFish/include/SetOfCards.h
+	<Card.h>
+	<vector>
+
+1579991903 /home/abes2720/Projects/Europa/GoFish/include/Player.h
+	<string>
+	<iostream>
+	"SetOfCards.h"
+	"Card.h"
+	<vector>
+	<string>
+	"Card.h"
+	"SetOfCards.h"
+
+1579992407 source:/home/abes2720/Projects/Europa/GoFish/src/Player.cpp
+	"Player.h"
+	"Card.h"
+	"SetOfCards.h"
+	<algorithm>
+	<iostream>
+
+1579914545 /home/abes2720/Projects/Europa/GoFish/include/PlayerAi.h
+	<Player.h>
+
+1579914549 source:/home/abes2720/Projects/Europa/GoFish/src/PlayerAi.cpp
+	"PlayerAi.h"
+
