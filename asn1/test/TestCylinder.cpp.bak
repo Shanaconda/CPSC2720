@@ -1,0 +1,27 @@
+#include "Cylinder.h"
+#include "Exceptions.h"
+#include "gtest/gtest.h"
+
+TEST(TestCylinder, getHeight) {
+  Cylinder c(2, 2);
+  EXPECT_EQ(2, c.getHeight());
+}
+
+TEST(TestCylinder, getRadius) {
+  Cylinder c(2, 2);
+  EXPECT_EQ(2, c.getRadius());
+}
+
+TEST(TestCylinder, areaTest) {
+  Cylinder c(2, 2);
+  EXPECT_NEAR(50.27, c.area(), 0.01);
+}
+
+TEST(TestCylinder, volumeTest) {
+  Cylinder c(2,2);
+  EXPECT_NEAR(25.13, c.volume(), 0.01);
+}
+
+TEST(TestCylinder, errorTesting) {
+  EXPECT_THROW(Cylinder c(-5.5, 2.7), invalid_parameter_error);
+}

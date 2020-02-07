@@ -1,0 +1,32 @@
+#include "Cuboid.h"
+#include <cmath>
+#include "Exceptions.h"
+#include "gtest/gtest.h"
+
+TEST(TestCuboid, getWidth) {
+  Cuboid a(5, 4, 2);
+  EXPECT_EQ(5, a.getWidth());
+}
+
+TEST(TestCuboid, getHeight) {
+  Cuboid a(5, 4, 2);
+  EXPECT_EQ(5, a.getHeight());
+}
+
+TEST(TestCuboid, getLength) {
+  Cuboid a(5, 4, 2);
+  EXPECT_EQ(5, a.getLength());
+}
+
+TEST(TestCuboid, getArea) {
+}
+
+TEST(TestCuboid, getVolume) {
+}
+
+TEST(TestCuboid, errorTest) {
+  EXPECT_THROW(Cuboid a(-5, 4, 2), invalid_parameter_error);
+  EXPECT_THROW(Cuboid b(5, -4, 2), invalid_parameter_error);
+  EXPECT_THROW(Cuboid c(5, 4, -2), invalid_parameter_error);
+  EXPECT_THROW(Cuboid d(-5, -4, -2), invalid_parameter_error);
+}
