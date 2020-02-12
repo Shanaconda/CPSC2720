@@ -1,4 +1,5 @@
 #include "Card.h"
+#include <string>
 
 Card::Card() {
   //ctor
@@ -9,22 +10,19 @@ Card::~Card() {
 }
 
 Card::Card(std::string v, std::string s) {
-  val=v;
-  suit=s;
-
+  val = v;
+  suit = s;
 }
 
 std::string Card::getVal() const {
-
-  return val;
+return val;
 }
 
 std::string Card::getSuit() const {
   return suit;
 }
 
-std::ostream& operator<<(std::ostream& sout, const Card& c)
-{
-  sout<<c.getVal()<<c.getSuit();
+std::ostream& operator<<(std::ostream& sout, const Card& c) {
+  sout<< c.getVal() << c.getSuit() <<" ";
   return sout;
 }
