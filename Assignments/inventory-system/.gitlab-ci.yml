@@ -1,0 +1,62 @@
+stages:
+   - compile
+   - test
+   - quality
+   - docs
+
+application:
+   stage: compile
+   script:
+      - make inventory
+   artifacts:
+      paths:
+         - inventory
+   only:
+      - master
+
+testing:
+   stage: test
+   script:
+      - make tests
+   only:
+      - master
+
+
+coverage:
+   stage: quality
+   script:
+      - make coverage
+   only:
+      - master
+
+memory-leaks:
+   stage: quality
+   script:
+      - make memcheck
+   only:
+      - master
+
+staticAnalysis:
+   stage: quality
+   script:
+      - make static
+   only:
+      - master
+
+styleChecking:
+   stage: quality
+   script:
+      - make style
+   only:
+      - master
+
+documentation:
+   stage: docs
+   script:
+      - make docs
+   artifacts:
+      paths:
+         - docs
+      expire_in: 14 days
+   only:
+      - master
