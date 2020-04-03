@@ -1,0 +1,46 @@
+/home/leol2720/group/chronos/include/Armor.h:17: warning: argument 'value' of command @param is not found in the argument list of Armor::Armor()
+/home/leol2720/group/chronos/include/Armor.h:17: warning: argument 'name' of command @param is not found in the argument list of Armor::Armor()
+/home/leol2720/group/chronos/include/Armor.h:24: warning: argument 'name' of command @param is not found in the argument list of Armor::Armor(std::string n, int v)
+/home/leol2720/group/chronos/include/Armor.h:24: warning: argument 'value' of command @param is not found in the argument list of Armor::Armor(std::string n, int v)
+/home/leol2720/group/chronos/include/Armor.h:24: warning: The following parameters of Armor::Armor(std::string n, int v) are not documented:
+  parameter 'n'
+  parameter 'v'
+/home/leol2720/group/chronos/include/Enemy.h:15: warning: argument 'name' of command @param is not found in the argument list of Enemy::Enemy(std::string, int, int)
+/home/leol2720/group/chronos/include/Enemy.h:15: warning: argument 'health' of command @param is not found in the argument list of Enemy::Enemy(std::string, int, int)
+/home/leol2720/group/chronos/include/Enemy.h:15: warning: argument 'damage' of command @param is not found in the argument list of Enemy::Enemy(std::string, int, int)
+/home/leol2720/group/chronos/include/Enemy.h:30: warning: argument 'gamePlayer' of command @param is not found in the argument list of Enemy::setDamage(int d)
+/home/leol2720/group/chronos/include/Enemy.h:30: warning: The following parameters of Enemy::setDamage(int d) are not documented:
+  parameter 'd'
+/home/leol2720/group/chronos/include/Enemy.h:63: warning: argument 'health' of command @param is not found in the argument list of Enemy::setHealth(int hp)
+/home/leol2720/group/chronos/include/Enemy.h:63: warning: The following parameters of Enemy::setHealth(int hp) are not documented:
+  parameter 'hp'
+/home/leol2720/group/chronos/include/Enemy.h:47: warning: argument 'name' of command @param is not found in the argument list of Enemy::setName(std::string n)
+/home/leol2720/group/chronos/include/Enemy.h:47: warning: The following parameters of Enemy::setName(std::string n) are not documented:
+  parameter 'n'
+/home/leol2720/group/chronos/include/GameItems.h:49: warning: argument 'random' of command @param is not found in the argument list of GameItems::getArmor(const int index)
+/home/leol2720/group/chronos/include/GameItems.h:49: warning: The following parameters of GameItems::getArmor(const int index) are not documented:
+  parameter 'index'
+/home/leol2720/group/chronos/include/GameItems.h:40: warning: argument 'random' of command @param is not found in the argument list of GameItems::getShield(const int index)
+/home/leol2720/group/chronos/include/GameItems.h:40: warning: The following parameters of GameItems::getShield(const int index) are not documented:
+  parameter 'index'
+/home/leol2720/group/chronos/include/GameItems.h:31: warning: argument 'random' of command @param is not found in the argument list of GameItems::getWeapon(const int index)
+/home/leol2720/group/chronos/include/GameItems.h:31: warning: The following parameters of GameItems::getWeapon(const int index) are not documented:
+  parameter 'index'
+/home/leol2720/group/chronos/include/Player.h:31: warning: argument 'name' of command @param is not found in the argument list of Player::Player(std::string, int, int, int, int)
+/home/leol2720/group/chronos/include/Player.h:31: warning: argument 'floor' of command @param is not found in the argument list of Player::Player(std::string, int, int, int, int)
+/home/leol2720/group/chronos/include/Player.h:31: warning: argument 'index' of command @param is not found in the argument list of Player::Player(std::string, int, int, int, int)
+/home/leol2720/group/chronos/include/Player.h:31: warning: argument 'index' of command @param is not found in the argument list of Player::Player(std::string, int, int, int, int)
+/home/leol2720/group/chronos/include/Player.h:31: warning: argument 'index' of command @param is not found in the argument list of Player::Player(std::string, int, int, int, int)
+/home/leol2720/group/chronos/include/Player.h:109: warning: argument 'random' of command @param is not found in the argument list of Player::setArmor(const int index)
+/home/leol2720/group/chronos/include/Player.h:109: warning: The following parameters of Player::setArmor(const int index) are not documented:
+  parameter 'index'
+/home/leol2720/group/chronos/include/Player.h:74: warning: argument 'n' of command @param is not found in the argument list of Player::setFloor(int)
+/home/leol2720/group/chronos/include/Player.h:150: warning: argument 'health' of command @param is not found in the argument list of Player::setHealth(int h)
+/home/leol2720/group/chronos/include/Player.h:150: warning: The following parameters of Player::setHealth(int h) are not documented:
+  parameter 'h'
+/home/leol2720/group/chronos/include/Player.h:103: warning: argument 'random' of command @param is not found in the argument list of Player::setShield(const int index)
+/home/leol2720/group/chronos/include/Player.h:103: warning: The following parameters of Player::setShield(const int index) are not documented:
+  parameter 'index'
+/home/leol2720/group/chronos/include/Player.h:95: warning: argument 'random' of command @param is not found in the argument list of Player::setWeapon(const int index)
+/home/leol2720/group/chronos/include/Player.h:95: warning: The following parameters of Player::setWeapon(const int index) are not documented:
+  parameter 'index'

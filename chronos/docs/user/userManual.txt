@@ -1,0 +1,46 @@
+****************************************************
+******     The Zeven Trials Game Manual       ******
+****************************************************
+
+Game:
+
+The Zeven Trials is a semi-randomly generated dungeon crawling game. The game consists of 7 floors you must go through to get to the end. Each of the floors you will have to fight an enemy and solve a puzzle to complete the floor. If you fail the puzzle or are defeated by an enemy the game ends and you have to restart.
+
+Battle:
+
+The player has 3 items that will assist them in battle, their weapon, shield and armour.
+Weapon - Determines how much damage the player can attack the enemy for.
+Shield - Used to block a large amount of damage from the enemy when selected.
+Armour - Constant amount of damage blocked from the enemy’s attack.
+The battle works in turns, first the player will have the choice to attack the enemy and let their armour block some of the enemy’s attack, or they can choose to block the damage from the enemy with their shield and armour. Since the enemy’s damage will not always be the same this lets the player attack when the enemy is planning on attacking for a small amount of damage, or block more of the attack when the enemy’s attacking for a lot of damage. If they player chooses to block the damage, the additional defence will not carry over to the next turn, it only helps for the turn you use it.
+
+Puzzles:
+
+There are six unique puzzles in the game, each revolving around player input.
+Puzzle 1 - You are given a word with the letters in the wrong order, it’s your job to figure out the unscrambled word.
+
+Puzzle 2 - You have to escape a labyrinth with phases of 3 doors with a randomly generated answer. If you go through the wrong door at any point you will be sent back to the starting room, so it’s important to remember which doors are the right ones.
+
+Puzzle 3 -  You are given an algebra puzzle where you have to solve for a specific value.
+
+Puzzle 4 - You are given a list of ingredients and you have to enter them in the right order, the game will tell you how many you have in the right order if you guess wrong
+
+Puzzle 5 - You are given a multiple choice trivia game, but if you guess wrong you lose health, if you lose enough health you die
+
+Puzzle 6 - You have to enter 2 inputs a certain amount of time apart, the timer starts when you enter your first input and stops when you enter your second input. You will have to do this 3 times.
+
+Help:
+
+Anytime after the game has started the player may enter “help”, “Help” or “HELP” to load the help menu. The help menu will give the user 5 options, saving and loading the game, how the battle works, how the treasure chest works, how the puzzles work and exiting the help menu.
+
+Treasure Chest:
+
+When the player encounters a treasure chest they will be given 3 choices of items, one weapon, one shield and one piece of armour. The level of items the player can get will be based off the current floor they are on. Once you have made your decision of treasure chest item it will replace the item the user has. Weapon replaces weapon, shield replaces shield and armour replaces armour.
+
+Save Game:
+
+The game will automatically be saved after the completion of the first floor. The save game will not take into account if you are on the puzzle or the battle but just what floor you are on.
+
+Load Game:
+
+At the beginning of the game the player will have the option to start a new game or load a saved game. The game will not run if you select load game without having an already saved game. The game will put you in the start of the floor you last ended off at with the same items they ended with.

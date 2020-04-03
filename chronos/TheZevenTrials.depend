@@ -1,0 +1,609 @@
+# depslib dependency file v1.0
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Armor.cpp
+	"Armor.h"
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Armor.h
+	<Items.h>
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Items.h
+	<string>
+
+1582074996 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Enemy.cpp
+	"Enemy.h"
+	"Character.h"
+	<string>
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Enemy.h
+	<Character.h>
+	<string>
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Character.h
+	"Weapon.h"
+	<string>
+
+1582079090 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Game.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	"Game.h"
+	"Character.h"
+	"Items.h"
+
+1582079109 /home/visr2720/assn/chronos/TheZevenTrials/include/Game.h
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/GameItems.cpp
+	"GameItems.h"
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/GameItems.h
+	<vector>
+	"Items.h"
+	"Weapon.h"
+	"Sheild.h"
+	"Armor.h"
+	<cstdlib>
+	<ctime>
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Items.cpp
+	"Items.h"
+
+1582080616 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Player.cpp
+	"Player.h"
+	"Character.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1582079064 /home/visr2720/assn/chronos/TheZevenTrials/include/Player.h
+	<Character.h>
+	"Shield.h"
+	"Armor.h"
+	<string>
+
+1582064734 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Sheild.cpp
+	"Sheild.h"
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Sheild.h
+	<Items.h>
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Weapon.cpp
+	"Weapon.h"
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Weapon.h
+	<Items.h>
+
+1582075615 source:/home/visr2720/assn/chronos/TheZevenTrials/src/game/main.cpp
+	<iostream>
+	"Game.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Armor.cpp
+	"Armor.h"
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Armor.h
+	"Items.h"
+	<Items.h>
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Items.h
+	<string>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Enemy.cpp
+	"Character.h"
+	"Enemy.h"
+	"Exception.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Enemy.h
+	<Character.h>
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Character.h
+	"Weapon.h"
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Weapon.h
+	"Items.h"
+	<string>
+
+1583990917 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Game.cpp
+	"Game.h"
+	"Exception.h"
+	"Character.h"
+	"Enemy.h"
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	"Player.h"
+	<time.h>
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<fstream>
+	<sstream>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Game.h
+	"Player.h"
+	"Enemy.h"
+	"Character.h"
+
+1583972917 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/game/main.cpp
+	<iostream>
+	"Game.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/GameItems.cpp
+	"GameItems.h"
+	"Exception.h"
+	"Weapon.h"
+	"Items.h"
+	"Shield.h"
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/GameItems.h
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	<cstdlib>
+	<ctime>
+	<vector>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Items.cpp
+	"Items.h"
+	<string>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Player.cpp
+	"Player.h"
+	"Character.h"
+	"Items.h"
+	"GameItems.h"
+	<string>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<cassert>
+	"Exception.h"
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Player.h
+	"Character.h"
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	"Items.h"
+	"Enemy.h"
+	<string>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Weapon.cpp
+	"Weapon.h"
+	<string>
+
+1582071035 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Test/TestCharacter.cpp
+	"gtest/gtest.h"
+	"Character.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Character.cpp
+	"Character.h"
+	"Exception.h"
+	<string>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Shield.cpp
+	"Shield.h"
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Shield.h
+	"Items.h"
+	<string>
+
+1582071359 source:/home/abes2720/Projects/chronos/TheZevenTrials/src/Test/main.cpp
+	"gtest/gtest.h"
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Character.cpp
+	"Character.h"
+
+1582074921 /home/visr2720/assn/chronos/TheZevenTrials/include/Shield.h
+	<Items.h>
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Shield.cpp
+	"Shield.h"
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Test/TestCharacter.cpp
+	"gtest/gtest.h"
+	"Character.h"
+
+1582078485 source:/home/visr2720/assn/chronos/TheZevenTrials/test/main.cpp
+	"gtest/gtest.h"
+	"Game.h"
+
+1582074921 source:/home/visr2720/assn/chronos/TheZevenTrials/src/Test/testItems.cpp
+	"gtest/gtest.h"
+	"Items.h"
+
+1582079630 source:/home/visr2720/assn/chronos/TheZevenTrials/test/testGame.cpp
+	"gtest/gtest.h"
+	"Game.h"
+
+1582080653 source:/home/visr2720/assn/chronos/TheZevenTrials/test/testPlayer.cpp
+	"gtest/gtest.h"
+	"Player.h"
+	"Weapon.h"
+	"Armor.h"
+	"Shield.h"
+
+1582068788 source:/home/leol2720/chronos/TheZevenTrials/src/Armor.cpp
+	"Armor.h"
+
+1582181618 /home/leol2720/chronos/TheZevenTrials/include/Armor.h
+	<Items.h>
+
+1582181567 /home/leol2720/chronos/TheZevenTrials/include/Items.h
+	<string>
+
+1582159338 source:/home/leol2720/chronos/TheZevenTrials/src/Character.cpp
+	"Character.h"
+	<string>
+
+1582159338 /home/leol2720/chronos/TheZevenTrials/include/Character.h
+	"Weapon.h"
+	<string>
+
+1582181285 /home/leol2720/chronos/TheZevenTrials/include/Weapon.h
+	<Items.h>
+
+1582181529 source:/home/leol2720/chronos/TheZevenTrials/src/GameItems.cpp
+	"GameItems.h"
+
+1582178925 /home/leol2720/chronos/TheZevenTrials/include/GameItems.h
+	<vector>
+	"Items.h"
+	"Weapon.h"
+	"Sheild.h"
+	"Armor.h"
+	<cstdlib>
+	<ctime>
+
+1582069312 /home/leol2720/chronos/TheZevenTrials/include/Sheild.h
+	<Items.h>
+
+1582068972 source:/home/leol2720/chronos/TheZevenTrials/src/Items.cpp
+	"Items.h"
+
+1582075599 source:/home/leol2720/chronos/TheZevenTrials/src/Shield.cpp
+	"Shield.h"
+
+1582181594 /home/leol2720/chronos/TheZevenTrials/include/Shield.h
+	<Items.h>
+
+1582068983 source:/home/leol2720/chronos/TheZevenTrials/src/Weapon.cpp
+	"Weapon.h"
+
+1582076021 source:/home/leol2720/chronos/TheZevenTrials/test/testArmor.cpp
+	"gtest/gtest.h"
+	"Armor.h"
+
+1582180719 source:/home/leol2720/chronos/TheZevenTrials/test/testGameItems.cpp
+	"gtest/gtest.h"
+	"GameItems.h"
+
+1582075734 source:/home/leol2720/chronos/TheZevenTrials/test/testShield.cpp
+	"gtest/gtest.h"
+	"Sheild.h"
+
+1582075414 source:/home/leol2720/chronos/TheZevenTrials/test/testWeapon.cpp
+	"gtest/gtest.h"
+	"Weapon.h"
+
+1582180978 source:/home/leol2720/chronos/TheZevenTrials/src/Game.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	"Game.h"
+	"Character.h"
+	"Items.h"
+	"Weapon.h"
+	"Sheild.h"
+	"Armor.h"
+	"GameItems.h"
+	"Player.h"
+
+1582180196 /home/leol2720/chronos/TheZevenTrials/include/Game.h
+	"Player.h"
+
+1582081431 source:/home/leol2720/chronos/TheZevenTrials/src/game/main.cpp
+	<iostream>
+	"Game.h"
+
+1582245027 source:/home/leol2720/chronos/TheZevenTrials/src/Player.cpp
+	"Player.h"
+	"Character.h"
+	<string>
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1582181225 /home/leol2720/chronos/TheZevenTrials/include/Player.h
+	<Character.h>
+	"Shield.h"
+	"Armor.h"
+	<string>
+	"GameItems.h"
+
+1582081431 source:/home/leol2720/chronos/TheZevenTrials/test/main.cpp
+	"gtest/gtest.h"
+	"Game.h"
+
+1582245754 source:/home/leol2720/chronos/TheZevenTrials/test/testGame.cpp
+	"gtest/gtest.h"
+	"Game.h"
+	"Player.h"
+	"Weapon.h"
+	"Sheild.h"
+	"Armor.h"
+	"GameItems.h"
+
+1582161742 source:/home/leol2720/chronos/TheZevenTrials/test/testPlayer.cpp
+	"gtest/gtest.h"
+	"Player.h"
+	"Weapon.h"
+	"Armor.h"
+	"Shield.h"
+
+1582160493 source:/home/leol2720/chronos/TheZevenTrials/src/Enemy.cpp
+	"Enemy.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1582159338 /home/leol2720/chronos/TheZevenTrials/include/Enemy.h
+	<Character.h>
+	<string>
+
+1583988747 /home/abes2720/Projects/chronos/TheZevenTrials/include/Exception.h
+	<stdexcept>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/main.cpp
+	"gtest/gtest.h"
+	"Game.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testArmor.cpp
+	"Armor.h"
+	"Items.h"
+	"GameItems.h"
+	"gtest/gtest.h"
+
+1583988847 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testGame.cpp
+	"Game.h"
+	"Items.h"
+	"Player.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	"gtest/gtest.h"
+	<string>
+	<iostream>
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testGameItems.cpp
+	"GameItems.h"
+	"Character.h"
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"Player.h"
+	"gtest/gtest.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testPlayer.cpp
+	"Player.h"
+	"Character.h"
+	"Weapon.h"
+	"Armor.h"
+	"Shield.h"
+	"gtest/gtest.h"
+
+1583988748 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testShield.cpp
+	"Shield.h"
+	"Items.h"
+	"gtest/gtest.h"
+
+1583988748 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testWeapon.cpp
+	"Weapon.h"
+	"Items.h"
+	"Shield.h"
+	"GameItems.h"
+	"gtest/gtest.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testCharacter.cpp
+	"Character.h"
+	"gtest/gtest.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/testEnemy.cpp
+	"Enemy.h"
+	"Character.h"
+	"Exception.h"
+	<string>
+	"gtest/gtest.h"
+
+1583988747 source:/home/abes2720/Projects/chronos/TheZevenTrials/test/TestItems.cpp
+	"Items.h"
+	"gtest/gtest.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/src/Armor.cpp
+	"Armor.h"
+	<string>
+
+1584300130 /home/abes2720/Projects/chronos/include/Armor.h
+	"Items.h"
+	<Items.h>
+	<string>
+
+1584300130 /home/abes2720/Projects/chronos/include/Items.h
+	<string>
+
+1584302677 source:/home/abes2720/Projects/chronos/src/Character.cpp
+	"Character.h"
+	"Exception.h"
+	<string>
+
+1584303522 /home/abes2720/Projects/chronos/include/Character.h
+	"Weapon.h"
+	<string>
+
+1584300130 /home/abes2720/Projects/chronos/include/Weapon.h
+	"Items.h"
+	<string>
+
+1584302729 /home/abes2720/Projects/chronos/include/Exception.h
+	<stdexcept>
+
+1584312274 source:/home/abes2720/Projects/chronos/src/Enemy.cpp
+	"Enemy.h"
+	"Exception.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1584310018 /home/abes2720/Projects/chronos/include/Enemy.h
+	<string>
+
+1584311212 source:/home/abes2720/Projects/chronos/src/Game.cpp
+	"Game.h"
+	"Exception.h"
+	"Enemy.h"
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	"Player.h"
+	<time.h>
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<fstream>
+	<sstream>
+
+1584311165 /home/abes2720/Projects/chronos/include/Game.h
+	"Player.h"
+	"Enemy.h"
+
+1584312760 /home/abes2720/Projects/chronos/include/Player.h
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	"Items.h"
+	"Enemy.h"
+	<string>
+
+1584300130 /home/abes2720/Projects/chronos/include/Shield.h
+	"Items.h"
+	<string>
+
+1584300130 /home/abes2720/Projects/chronos/include/GameItems.h
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	<cstdlib>
+	<ctime>
+	<vector>
+
+1584300130 source:/home/abes2720/Projects/chronos/src/GameItems.cpp
+	"GameItems.h"
+	"Exception.h"
+	"Weapon.h"
+	"Items.h"
+	"Shield.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/src/Items.cpp
+	"Items.h"
+	<string>
+
+1584309474 source:/home/abes2720/Projects/chronos/src/Player.cpp
+	"Player.h"
+	"Items.h"
+	"GameItems.h"
+	<string>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<cassert>
+	"Exception.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/src/Shield.cpp
+	"Shield.h"
+	<string>
+
+1584300130 source:/home/abes2720/Projects/chronos/src/Weapon.cpp
+	"Weapon.h"
+	<string>
+
+1584300130 source:/home/abes2720/Projects/chronos/test/main.cpp
+	"gtest/gtest.h"
+	"Game.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/test/testArmor.cpp
+	"Armor.h"
+	"Items.h"
+	"GameItems.h"
+	"gtest/gtest.h"
+
+1584311232 source:/home/abes2720/Projects/chronos/test/testEnemy.cpp
+	"Enemy.h"
+	"Exception.h"
+	<string>
+	"gtest/gtest.h"
+
+1584313011 source:/home/abes2720/Projects/chronos/test/testGame.cpp
+	<iostream>
+	"Game.h"
+	"Items.h"
+	"Player.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"GameItems.h"
+	<string>
+	"gtest/gtest.h"
+
+1584311719 source:/home/abes2720/Projects/chronos/test/testGameItems.cpp
+	"GameItems.h"
+	"Items.h"
+	"Weapon.h"
+	"Shield.h"
+	"Armor.h"
+	"Player.h"
+	"gtest/gtest.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/test/TestItems.cpp
+	"Items.h"
+	"gtest/gtest.h"
+
+1584313610 source:/home/abes2720/Projects/chronos/test/testPlayer.cpp
+	"Player.h"
+	"Weapon.h"
+	"Armor.h"
+	"Shield.h"
+	"gtest/gtest.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/test/testShield.cpp
+	"Shield.h"
+	"Items.h"
+	"gtest/gtest.h"
+
+1584300130 source:/home/abes2720/Projects/chronos/test/testWeapon.cpp
+	"Weapon.h"
+	"Items.h"
+	"Shield.h"
+	"GameItems.h"
+	"gtest/gtest.h"
+
+1584303531 source:/home/abes2720/Projects/chronos/test/testCharacter.cpp
+	"Character.h"
+	"gtest/gtest.h"
+
